@@ -1,0 +1,23 @@
+.extra{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 20px;
+    height: 500px;
+    width: 500px;
+    p{
+        background-color: #1C6EA4;
+        border: 5px dashed #0B325E;
+    }
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.extra1, .extra2, .extra3{
+    margin-top: 20px;
+}

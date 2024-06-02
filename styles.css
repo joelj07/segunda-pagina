@@ -1,0 +1,107 @@
+body {
+  background-image: url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0.1px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.dm, .gx, .yusei {
+  width: 500px;
+  height: 350px;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 2px 5px rgba(41, 173, 255, 0);
+  background: #1C6EA4;
+}
+
+p {
+  color: azure;
+  text-align: justify;
+}
+
+h3 {
+  color: azure;
+  text-align: center;
+}
+
+.imagen1 {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagen2 {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagen3 {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #1C6EA4;
+  padding: 5px;
+  outline: 12px inset black;
+  outline-offset: 0px;
+}
+.menu h2 {
+  color: white;
+}
+
+.dm img:hover {
+  transform: scale(1.5);
+}
+
+.gx img:hover {
+  transform: scale(1.5);
+}
+
+.yusei img:hover {
+  transform: scale(1.5);
+}
+
+.extra img:hover {
+  transform: scale(1.5);
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin-top: 20px;
+  height: 500px;
+  width: 500px;
+}
+.extra p {
+  background-color: #1C6EA4;
+  border: 5px dashed #0B325E;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.extra1, .extra2, .extra3 {
+  margin-top: 20px;
+}/*# sourceMappingURL=styles.css.map */
