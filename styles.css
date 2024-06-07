@@ -104,4 +104,12 @@ img {
 
 .extra1, .extra2, .extra3 {
   margin-top: 20px;
+}
+
+.boton {
+  background-color: rgb(48, 48, 138);
+  padding: 10px 40px;
+  text-align: center;
+  display: inline-block;
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
