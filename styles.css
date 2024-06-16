@@ -55,6 +55,7 @@ h3 {
 
 .menu {
   display: flex;
+  margin-top: 20px;
   flex-direction: row;
   text-align: center;
   justify-content: space-around;
@@ -62,6 +63,7 @@ h3 {
   padding: 5px;
   outline: 12px inset black;
   outline-offset: 0px;
+  margin-bottom: 20px;
 }
 .menu h2 {
   color: white;
@@ -115,4 +117,28 @@ img {
 
 .boton a {
   color: white;
+}
+
+.foro {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bastion, .chazz, .jesse, .oriol {
+  display: flex;
+  background-color: #1C6EA4;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 2px 5px rgba(41, 173, 255, 0);
+}
+.bastion h4, .chazz h4, .jesse h4, .oriol h4 {
+  text-align: center;
+}
+.bastion p, .chazz p, .jesse p, .oriol p {
+  text-align: center;
+  margin: 0;
+  text-align: justify;
 }/*# sourceMappingURL=styles.css.map */

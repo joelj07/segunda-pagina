@@ -1,0 +1,30 @@
+.foro{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.bastion, .chazz, .jesse, .oriol{
+    display: flex;
+    background-color: #1C6EA4;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 2px 5px rgba(41,173,255,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 2px 5px rgba(41,173,255,0);
+    
+    
+    h4{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+        margin: 0;
+        text-align: justify;
+    }
+}
+
